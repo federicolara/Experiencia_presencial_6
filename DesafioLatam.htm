@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3218 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbolinks-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 9999;
+  transition: width 300ms ease-out, opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}</style>
+<script type="text/javascript" src="./DesafioLatam_files/4c8462bdb9"></script><script src="./DesafioLatam_files/nr-1044.min.js"></script><script async="" src="./DesafioLatam_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4c8462bdb9","applicationID":"23396279","transactionName":"JlwLEBELX1sHRUlSXA1cFxAQS0BfDUA=","queueTime":0,"applicationTime":86,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><link rel="stylesheet" media="all" href="./DesafioLatam_files/application-88fcbf4357261949d364095906444430a4fe9f1d4ae86e814708acd6c960ceab.css" data-turbolinks-track="true"> <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-56222340-3', { 'userId': 2360 });
+
+		  ga('send', 'pageview');
+		</script>
+<script src="./DesafioLatam_files/application-db162240ef8bbe183a5f1482a7c8caa1c0e4065b6e85050e034c14ceabb9d4f4.js" data-turbolinks-track="true"></script><script crossorigin="anonymous" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" src="./DesafioLatam_files/bootstrap.min.js"></script><script src="./DesafioLatam_files/moment.min.js"></script><script src="./DesafioLatam_files/fullcalendar.js"></script>
+<link href="./DesafioLatam_files/css" rel="stylesheet" type="text/css"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4c8462bdb9","applicationID":"23396279","transactionName":"JlwLEBELX1sHRUlCVgZHDAsNFxxEClgR","queueTime":0,"applicationTime":109,"agent":""}</script><script type="text/javascript" async="" src="./DesafioLatam_files/embed.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4c8462bdb9","applicationID":"23396279","transactionName":"JlwLEBELX1sHRUlYRwBeFksQDFxA","queueTime":0,"applicationTime":96,"agent":""}</script><title>DesafioLatam</title><meta name="csrf-param" content="authenticity_token"><meta name="csrf-token" content="egnUoAZVzQ0Vu0lkRCkuDZZh+ZLtYmcg++PCE9SLT9Kejpf0xJFYEnNHxe6qxhZNq05g+Ho/HDHMgugIJudn+Q=="><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="http://empieza.desafiolatam.com/assets/favicon-30f79739e4e1bdc1671c12892bbfbb5c40ba18638a189171033ebe00f890d150.ico" rel="shortcut icon"><script type="text/javascript" async="" src="./DesafioLatam_files/embed.js"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.83b5b8f9aa16033ab1cb9cb54bf59140.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.f676c84aeac20fb55187512d1a7172ca.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.c3b01cf842b6ec529b05642151f61352.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body> 
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+<i class="fa fa-bars"></i>
+</button>
+<a class="navbar-brand page-scroll" href="http://empieza.desafiolatam.com/" style="padding-top:10px">
+<img src="./DesafioLatam_files/latam_logo-969d899d097c00ca1a407f7d50ddc1cc00fd5a1e4bda3142b8fd3349fd53ebfd.png" alt="Latam logo">
+</a>
+</div>
+
+<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+<ul class="nav navbar-nav">
+
+<li class="hidden">
+<a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3218#page-top"></a>
+</li>
+
+<li>
+<a href="http://empieza.desafiolatam.com/users/2360/complete_profile">
+FEDERICOMARCELO LARA
+</a>
+</li>
+<li>
+</li>
+<li>
+<a href="http://empieza.desafiolatam.com/cohorts/96"> Mi Curso </a>
+</li>
+<li>
+<a href="http://empieza.desafiolatam.com/users/2360/pendings"> Pendientes: 1 </a>
+</li>
+<li>
+<a href="http://empieza.desafiolatam.com/users/2360/badges"> Medallas: 0 </a>
+</li>
+<li>
+<a href="http://empieza.desafiolatam.com/cohorts/96/users/2360/results"> Desafios Completados: 3 </a>
+</li>
+<li>
+<a href="http://empieza.desafiolatam.com/users/sign_out" data-method="delete">Salir</a>
+</li>
+</ul>
+</div>
+
+</div>
+
+</nav>
+<section class="jumbotron" style="z-index:0; margin-bottom:0px"><div id="cohort-image"><h2 class="intro-text"></h2></div></section><div class="main" style="z-index:20; padding-top:10px;"><div class="notifications"></div><div class="container"><div class="row" style="margin-bottom:30px"><div class="col-md-12" style="text-align:center"><h1>Clase 9 Semana Online 3&nbsp;<div class="small" style="display: inline"><a href="http://empieza.desafiolatam.com/cohorts/96">(Volver)</a></div></h1></div></div><div class="row"><div class="col-md-8"><div class="workable-nav"><div class="btn-group"><a class="btn btn-default" href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3218/previous">&lt; Anterior</a><a class="btn btn-default" href="http://empieza.desafiolatam.com/cohorts/96">Volver</a><a class="btn btn-success" href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3218/next">Siguiente &gt;</a></div></div><div class="workable"><h1> Mi primera grilla </h1>
+<div class="videors">
+<div>
+<iframe id="player1" class="embed-responsive-item" src="./DesafioLatam_files/214228445.html" width="640" height="400" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<br>
+<br>
+<h3> Ejemplo base de Código utilizado en el video <a href="https://gist.github.com/Maiclear/950a7afd3f44bb36e99cafdaf5cb748e" style="text-decoration:underline"> AQUÍ: </a> </h3>
+<br>
+</div>
+</div>
+<div id="disqus_thread"><iframe id="dsq-app5152" name="dsq-app5152" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./DesafioLatam_files/saved_resource.html" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 403px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'empieza';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+<script>
+$(document).on("turbolinks:load", function(){
+    var iframe = $('#player1')[0];
+    var player = $f(iframe);
+    var status = $('.status');
+    var consumed = 0
+
+    // When the player is ready, add listeners for pause, finish, and playProgress
+    player.addEvent('ready', function() {
+        player.addEvent('play', onPlay);
+    });
+
+    // Call the API when a button is pressed
+    $('button').bind('click', function() {
+        player.api($(this).text().toLowerCase());
+    });
+
+    function onPlay(id) {
+    	console.log("playing")
+    	if (consumed == 0){
+			//ga('send', 'event', 'workshop', 'click', 'play', 657);
+
+			$.ajax({
+				url: '/cohorts/96/workshops/657/consumes',
+				type: 'POST',
+				dataType: 'json',
+				data: {param1: 'value1'},
+			})
+			.done(function() {
+				console.log("success");
+			})
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function() {
+				console.log("complete");
+			});
+	        status.text('paused');
+	        consumed = 1
+	    }
+	}
+});
+</script>
+</div></div><div class="col-md-4"><ul class="activities" id="activities_list"><li style="list-style-type: none"><div class="panel panel-default"><div class="panel-heading"><h3>Introducción</h3><script>$("#up_activity_696").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "696"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/696/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_activity_696").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "696"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/696/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></div><div class="panel-body"><ul class="list-group"><li class="list-group-item list-group-item-current" id="item-3205"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:00:35</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/696/items/3205">1.- Intro semana 3</a><script>$("#up_3205").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "696",
+    item_id: "3205"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/696/items/3205/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3205").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "696",
+    item_id: "3205"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/696/items/3205/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li></ul></div></div></li><li style="list-style-type: none"><div class="panel panel-default"><div class="panel-heading"><h3>Unidades de Medida</h3><script>$("#up_activity_697").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "697"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_activity_697").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "697"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></div><div class="panel-body"><ul class="list-group"><li class="list-group-item list-group-item-current" id="item-3206"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:02:21</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/697/items/3206">2.- Sintaxis de las Unidades de Medida</a><script>$("#up_3206").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "697",
+    item_id: "3206"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/items/3206/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3206").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "697",
+    item_id: "3206"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/items/3206/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3207"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:07:36</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/697/items/3207">3.- Tipos de Unidades</a><script>$("#up_3207").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "697",
+    item_id: "3207"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/items/3207/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3207").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "697",
+    item_id: "3207"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/items/3207/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item" id="item-3208"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-check-square-o" style="margin-right: 5px;"></i><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/697/items/3208">4.- Quiz 07 - Unidades de Medida</a><script>$("#up_3208").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "697",
+    item_id: "3208"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/items/3208/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3208").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "697",
+    item_id: "3208"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/697/items/3208/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li></ul></div></div></li><li style="list-style-type: none"><div class="panel panel-default"><div class="panel-heading"><h3>Tipos de Diseño</h3><script>$("#up_activity_698").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "698"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_activity_698").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "698"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></div><div class="panel-body"><ul class="list-group"><li class="list-group-item list-group-item-current" id="item-3209"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:02:21</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3209">5.- Tipos de diseño</a><script>$("#up_3209").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3209"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3209/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3209").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3209"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3209/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3210"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:06:02</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3210">6.- Estático</a><script>$("#up_3210").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3210"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3210/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3210").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3210"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3210/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3211"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:02:00</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3211">7.- Layout estático</a><script>$("#up_3211").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3211"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3211/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3211").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3211"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3211/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3212"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:01:41</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3212">8.- 3 Columnas</a><script>$("#up_3212").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3212"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3212/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3212").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3212"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3212/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3213"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:02:31</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3213">9.- Fluid</a><script>$("#up_3213").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3213"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3213/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3213").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3213"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3213/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3214"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:01:52</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3214">10.- Fluido con imágenes</a><script>$("#up_3214").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3214"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3214/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3214").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3214"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3214/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3215"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:05:16</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3215">11.- Media Queries</a><script>$("#up_3215").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3215"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3215/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3215").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3215"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3215/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3216"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:03:09</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3216">12.- Menú Adaptativo</a><script>$("#up_3216").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3216"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3216/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3216").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3216"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3216/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3217"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:06:52</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3217">13.- Sitio Adaptativo</a><script>$("#up_3217").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3217"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3217/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3217").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3217"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3217/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-success" id="item-3218"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:03:40</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3218">14.- Mi primera grilla</a><script>$("#up_3218").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3218"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3218/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3218").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3218"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3218/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3219"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:07:24</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3219">15.- Grilla de 10 columnas</a><script>$("#up_3219").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3219"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3219/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3219").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3219"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3219/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3220"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:02:55</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3220">16.- Grid con offsets</a><script>$("#up_3220").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3220"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3220/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3220").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3220"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3220/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3221"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:08:38</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3221">17.- Grid responsive</a><script>$("#up_3221").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3221"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3221/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3221").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3221"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3221/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item list-group-item-current" id="item-3222"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:02:11</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3222">18.- Viewport</a><script>$("#up_3222").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3222"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3222/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3222").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3222"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3222/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li><li class="list-group-item" id="item-3223"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-check-square-o" style="margin-right: 5px;"></i><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/698/items/3223">19.- Quiz 08 - Tipos de diseño</a><script>$("#up_3223").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3223"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3223/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3223").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "698",
+    item_id: "3223"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/698/items/3223/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li></ul></div></div></li><li style="list-style-type: none"><div class="panel panel-default"><div class="panel-heading"><h3>Cierre</h3><script>$("#up_activity_699").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "699"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/699/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_activity_699").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "699"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/699/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></div><div class="panel-body"><ul class="list-group"><li class="list-group-item list-group-item-current" id="item-3224"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-film" style="margin-right: 5px;"></i><div class="pull-right">00:00:48</div><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/699/items/3224">20.- Cierre</a><script>$("#up_3224").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "699",
+    item_id: "3224"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/699/items/3224/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3224").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "699",
+    item_id: "3224"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/699/items/3224/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li></ul></div></div></li><li style="list-style-type: none"><div class="panel panel-default"><div class="panel-heading"><h3>Material de Apoyo 3</h3><script>$("#up_activity_700").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "700"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/700/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_activity_700").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    id: "700"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/700/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></div><div class="panel-body"><ul class="list-group"><li class="list-group-item" id="item-3225"><p style="margin-top:20px"></p><i aria-hidden="true" class="fa fa-file-pdf-o" style="margin-right: 5px;"></i><a href="http://empieza.desafiolatam.com/cohorts/96/sections/2881/activities/700/items/3225">21.- Unidades de Medida</a><script>$("#up_3225").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "700",
+    item_id: "3225"
+  }
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/700/items/3225/up",
+    data: data,
+    dataType: "script"
+  });
+});
+
+$("#down_3225").on("click", function(){
+  data = {
+    cohort_id: "96",
+    section_id: "2881",
+    activity_id: "700",
+    item_id: "3225"
+  };
+  $.ajax({
+    type: "GET",
+    url: "/cohorts/96/sections/2881/activities/700/items/3225/down",
+    data: data,
+    dataType: "script"
+  });
+});</script></li></ul></div></div></li></ul></div></div></div></div><footer><div class="container text-center"><hr><p>@DesafíoLatam</p></div></footer><iframe style="display: none;" src="./DesafioLatam_files/saved_resource(2).html"></iframe></body></html>
